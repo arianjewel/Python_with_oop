@@ -90,9 +90,7 @@ def scrape_book_info(book_info, category_name):
     book_url,book_name=book_info
     book_name=unescape(book_name)
     book_dict={'Name':book_name,'Category':category_name}
-    print(book_url)
     book_url='http://books.toscrape.com/catalogue/'+book_url[9:]
-    print(book_url)
     book_dict['URL']=book_url
 
     print('Scraping book',book_name)
