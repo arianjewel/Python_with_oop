@@ -3197,3 +3197,5 @@
 (05/26/18 10:50:15 PM)    Scraping : http://books.toscrape.com/catalogue/the-long-shadow-of-small-ghosts-murder-and-memory-in-an-american-city_848/index.html
 (05/26/18 10:50:15 PM)    Starting new HTTP connection (1): books.toscrape.com
 (05/26/18 10:50:16 PM)    http://books.toscrape.com:80 "GET /catalogue/the-long-shadow-of-small-ghosts-murder-and-memory-in-an-american-city_848/index.html HTTP/1.1" 200 None
+(05/31/18 09:20:09 PM)    Starting new HTTP connection (1): book.toscrape.com
+(05/31/18 09:20:10 PM)    ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
