@@ -31,3 +31,15 @@ result=pat.findall(html)
 with open('cricket_team.txt','a') as f:
     for item in result:
         f.write(item[0]+' - '+item[1]+', '+item[2]+'\n')'''
+
+
+
+
+'''import re
+
+with open('player name.html','r') as f:
+    file=f.read()
+
+li=re.findall(r'<li>\s*(\w+)\s*.+\s*<li>(.+?)</li>\s*<li>(.+?)</li>',file)
+for tup in li:
+    print(tup[0]+' - '+tup[1]+', '+tup[2])'''
